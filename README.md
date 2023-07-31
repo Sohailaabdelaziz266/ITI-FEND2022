@@ -16,8 +16,14 @@ This course is a detailed 60 hour Front End Development course for beginners.
 2. CSS
 3. JavaScript
 
-## Lessons
-- Lesson 1.0
+## Branches
+This project consists of five branches
+- lesson1.0
+- lesson2.0
+- lesson3.0
+- lesson4.0
+- lesson5.0
+
 
 
 ## Author
