@@ -2,6 +2,30 @@
 <html>
 <head>
   <title>صفحة سهيلة</title>
+  <style>
+    .relative-box {
+      position: relative;
+      background-color: #e0f7fa;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      background-color: #ffe0e0;
+      padding: 10px;
+    }
+
+    .fixed-box {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      background-color: #e0ffe0;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
 
@@ -19,11 +43,17 @@
   </ul>
 
   <p>زوروا صفحتي على GitHub:</p>
-  <a href="https://github.com/sohaila-abdelaziz" target="_blank">اضغط هنا</a>
+  <a href="https://github.com/Sohailaabdelaziz266" target="_blank">اضغط هنا</a>
 
   <hr>
 
   <label>وظيفتي المستقبلية:</label>
   <input type="text" value="Frontend Developer">
+
+  <!-- عناصر فيها position -->
+  <div class="relative-box">أنا box بـ position: relative</div>
+  <div class="absolute-box">أنا box بـ position: absolute</div>
+  <div class="fixed-box">أنا box بـ position: fixed</div>
+
 </body>
 </html>
